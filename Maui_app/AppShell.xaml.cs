@@ -1,10 +1,9 @@
-﻿namespace Maui_app
+﻿namespace Telefono
 {
     public partial class AppShell : Shell
     {
         public AppShell()
         {
-            //comentario
             InitializeComponent();
         }
     }

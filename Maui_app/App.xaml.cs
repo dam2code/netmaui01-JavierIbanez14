@@ -1,4 +1,4 @@
-﻿namespace Maui_app
+﻿namespace Telefono
 {
     public partial class App : Application
     {
