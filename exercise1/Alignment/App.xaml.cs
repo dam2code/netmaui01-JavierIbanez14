@@ -6,7 +6,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 	}
-
+	//añadir cambios a la vaina esta
 	protected override Window CreateWindow(IActivationState activationState)
 	{
 		return new Window(new AppShell());
