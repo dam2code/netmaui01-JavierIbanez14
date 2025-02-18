@@ -13,9 +13,7 @@ public partial class StandardTipPage : ContentPage
 
     void CalculateTip()
     {
-        double bill;
-
-        if (Double.TryParse(billInput.Text, out bill) && bill > 0)
+        if (double.TryParse(billInput.Text, out double bill) && bill > 0)
         {
             double tip = Math.Round(bill * 0.15, 2);
             double final = bill + tip;
